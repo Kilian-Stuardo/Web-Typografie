@@ -5,13 +5,35 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
-#closed-captions p {
+
+/*#closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
 	width: 100%;
 	text-align: center;
-	margin-top: 2em;
+	font-size: 1.2em;
+	top: 440px;
+	left: 20px;
+	z-index: 2;
+}
+*/
+
+	#closed-captions {
+		display: flex;
+		justify-content: center;
+
+	}
+
+	#closed-captions p {
+		opacity: 0;
+		transition: .05s;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		font-size: 2.5em;
+		z-index: 2;
+		max-width: 50%;
 
 
 }
@@ -23,18 +45,249 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 }
 
+
 body{
-	background-color: #21252B;
+overflow: hidden;
+background-color: black;
+}
+
+#Captions{
+	display: block;
+	position: absolute;
+}
+
+.sound0 {
+	background-color: black;
+	background-size: 400% 400%;
+
+
+}
+
+.sound1{
+	/*background: linear-gradient(89deg, #000000, #ff0000, #000000);
+	background-size: 600% 600%;
+	/*animation: Scan 2s ease infinite;*/
+
+}
+
+@keyframes Scan {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.sound1 .baseline {
+	animation: baseline 3s ease;
+
+}
+
+.baseline{
+	position: absolute;
+	background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(140,190,184,0.73) 45%, rgba(140,190,184,1) 100%);
+	filter: blur(2px);
+	height: 20px;
+	width: 20px;
+	right: 2em;
+	bottom: 70%;
+	transform: translateY(50%);
+	opacity: 0;
+	margin-top: -30em;
+
+
+}
+.baseline2{
+	position: absolute;
+	background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(140,190,184,0.73) 45%, rgba(140,190,184,1) 100%);
+	filter: blur(2px);
+	height: 20px;
+	width: 20px;
+	right: 2em;
+	bottom: 70%;
+	transform: translateY(50%);
+	opacity: 0;
+	margin-top: -30em;
+
+
+}
+.baseline3{
+	position: absolute;
+	background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(140,190,184,0.73) 45%, rgba(140,190,184,1) 100%);
+	filter: blur(2px);
+	height: 20px;
+	width: 20px;
+	right: 2em;
+	bottom: 70%;
+	transform: translateY(50%);
+	opacity: 0;
+	margin-top: -30em;
+
+
+}
+
+
+@keyframes baseline {
+	0% {
+	    left: 0%;
+			height: 30em;
+			opacity: 1;
+	}
+
+	90% {
+				left: 90%;
+				height: 30em;
+				opacity: 1;
+						}
+
+100% {
+			left: 100%;
+			height: 30em;
+			opacity: 0;
+					}
+
+}
+
+@keyframes baseline2 {
+	0% {
+	    left: 0%;
+			height: 30em;
+			opacity: 1;
+	}
+
+	90% {
+				left: 90%;
+				height: 30em;
+				opacity: 1;
+						}
+
+100% {
+			left: 100%;
+			height: 30em;
+			opacity: 0;
+					}
+
+}
+@keyframes baseline3 {
+	0% {
+	    left: 0%;
+			height: 30em;
+			opacity: 1;
+	}
+
+	90% {
+				left: 90%;
+				height: 30em;
+				opacity: 1;
+						}
+
+100% {
+			left: 100%;
+			height: 30em;
+			opacity: 0;
+					}
+
+}
+
+
+
+
+.sound3 {
+	background: black;
+
+
+
+}
+
+
+
+
+.sound4 .baseline2 {
+	animation: baseline 3s ease;
+
+}
+.sound5 .baseline3 {
+	animation: baseline 3s ease;
+
+}
+
+.sound5{
+
+
+}
+.sound6{
+	/*background:#A0AD98;*/
+}
+
+.sound7 .noise{
+	position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: #A0AD98 url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background-repeat: space;
+  animation: noise .2s infinite;
+  opacity: .9;
+  visibility: visible;
+	 z-index: -1;
+
+}
+
+@keyframes noise {
+
+	0% { transform: translate(0,0) }
+	    10% { transform: translate(-5%,-5%) }
+	    20% { transform: translate(-10%,5%) }
+	    30% { transform: translate(5%,-10%) }
+	    40% { transform: translate(-5%,15%) }
+	    50% { transform: translate(-10%,5%) }
+	    60% { transform: translate(15%,0) }
+	    70% { transform: translate(0,10%) }
+	    80% { transform: translate(-15%,0) }
+	    90% { transform: translate(10%,5%) }
+	    100% { transform: translate(5%,0) }
+
+}
+
+
+
+.sound7{
+	/*background-color: black;
+	--c0: #ff9800;
+	--c1: #3c3c3c;
+	background: radial-gradient(
+		circle at var(--x, 0) var(--y, 0),
+		var(--gc0, var(--c0)) var(--stop, 0%),
+		var(--gc1, var(--c1)) 0);
+	background-size: 100vw 100vh */
+}
+
+
+
+.sound8{
+	background: white;
+}
+
+#container{
+text-align: center;
+margin: 0 auto;
+margin-top: 5em;
+max-width: 50%;
+
 }
 
 iframe{
 display: block;
 margin: 0 auto;
 margin-top: 2em;
+width: 50em;
+height: 30em;
 }
 
 #video{
 	width: 100%;
+
 }
 
 .voice1{
@@ -53,6 +306,13 @@ margin-top: 2em;
 	font-family: helvetica;
 	color: red;
 	font-style: normal;
+
+}
+
+@keyframes tension {
+	 0%{background-position:0% 50%}
+	 50%{background-position:100% 50%}
+	 100%{background-position:0% 50%}
 }
 
 /* **********************************************
@@ -134,3 +394,21 @@ You probably want to change the styling.
 	transition: 0s 3.7s;
 
 }
+.p1.on span:first-of-type{
+	/*background: #2980b9;*/
+}
+.p6.on span{
+	animation: fuck 2s ease ;
+	opacity: 1;
+	transition: 0s 3.7s;
+
+}
+
+@keyframes fuck {
+	 0%{font-size:0.5em;}
+	 100%{font-size:1.5em}
+}
+
+/*.voice1 span:first-of-type{
+	background: #345A5B;
+}*/
