@@ -4,20 +4,26 @@ sounds = [
 
 0, //sound0
 
-15, //sound1
+9, //sound1
 
-16.5, //sound2  baseline beep
+15, //sound2
 
-23, //sound3 fuck off
+16.5, //sound3  baseline beep
 
-25, //sound4 baseline beep
+23, //sound4 fuck off
 
-31, //sound5 baseline beep
+25, //sound5 baseline beep
 
-33, //sound6 begin test
+31, //sound6 baseline beep
 
-34, //sound7 tension building
+33, //sound7 begin test
 
-77 //sound8
+39,//sound8 tension building
+
+52, //sound9
+
+58,//sound10
+
+77 //sound11
 
 ];
