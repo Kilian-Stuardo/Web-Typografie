@@ -393,6 +393,8 @@ background-color: black;
 
 .sound12{
 background: black;
+transition: .4s;
+
 }
 
 #container{
