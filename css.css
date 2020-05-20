@@ -233,42 +233,43 @@ background-color: black;
 }
 
 .sound6{
-
+/* background:#A0AD98; */
 
 }
-.sound6{
-	/*background:#A0AD98;*/
-}
-
 .sound7{
-	/* position: absolute;
-	/* top: -50%;
-	left: -5%;
-	right: -50%;
-	bottom: -50%;
-	width: 200%;
-	height: 200vh;
-	background: url('ezgif.com-gif-maker.gif') repeat 0 0;
-	background-repeat: repeat; */
-	/* animation: noise .2s infinite;
-	opacity: 1;
-	visibility: visible;
-	 z-index: -1;
-	 animation: noise 3s ease forwards; */
-	 background:#A0AD98;
-
+background:#A0AD98;
 }
 
-/* @keyframes noise2 {
+.sound7 .noise{
+	position: absolute;
+  top: -50%;
+  left: -5%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: url('Contour_10_.gif') repeat 0 0;
+  background-repeat: repeat;
+  /* animation: noise .2s infinite; */
+  opacity: 1;
+  visibility: visible;
+	z-index: -1;
+	animation: noise0 3s ease infinite;
+}
 
-	0% {
-        transform: scale(1.0);
-    }
-    100% {
-        transform: scale(2.0);
-    }
+@keyframes noise0 {
 
-} */
+	0%{
+		opacity: 0;
+
+	}
+
+
+	100%{
+		opacity: 1;
+	}
+}
+
 
 .sound8 .noise{
 	position: absolute;
@@ -278,7 +279,7 @@ background-color: black;
   bottom: -50%;
   width: 200%;
   height: 200vh;
-  background: url('ezgif.com-gif-maker.gif') repeat 0 0;
+  background: url('3.gif') repeat 0 0;
   background-repeat: repeat;
   /* animation: noise .2s infinite; */
   opacity: 1;
@@ -328,7 +329,7 @@ background-color: black;
 	  bottom: -50%;
 	  width: 200%;
 	  height: 200vh;
-	  background: url('ezgif.com-gif-maker(2).gif') repeat 0 0;
+	  background: url('4.gif') repeat 0 0;
 	  background-repeat: repeat;
 	  /* animation: noise .2s infinite; */
 	  opacity: 1;
@@ -358,7 +359,7 @@ background-color: black;
 		bottom: -50%;
 		width: 200%;
 		height: 200vh;
-		background: url('ezgif.com-gif-maker(4).gif') repeat 0 0;
+		background: url('5.gif') repeat 0 0;
 		background-repeat: repeat;
 		/* animation: noise .2s infinite; */
 		opacity: 1;
@@ -382,7 +383,7 @@ background-color: black;
 
 
 .sound11{
-	background: #A0AD98;
+	background: ##b9cab0;
 	animation: none;
 }
 

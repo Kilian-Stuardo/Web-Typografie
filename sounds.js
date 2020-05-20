@@ -26,6 +26,14 @@ sounds = [
 
 77, //sound11
 
-86 // sound12
+86, // sound12 frame between scenes
+
+88, // sound 13 begin scene 2
+
+103, // sound 14 inspection
+
+119, // sound 15 basline scanner
+
+130 // sound 16 not close to baseline
 
 ];
