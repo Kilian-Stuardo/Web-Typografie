@@ -32,8 +32,12 @@ sounds = [
 
 103, // sound 14 inspection
 
-119, // sound 15 basline scanner
+106, // sound15
 
-130 // sound 16 not close to baseline
+115, // sound 16
+
+119, // sound 17 basline scanner
+
+130 // sound 18 not close to baseline
 
 ];

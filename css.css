@@ -70,6 +70,7 @@ transform: scale(1);
 
 
 }
+
 @keyframes alarm {
 0%{
 	transform: scale(1);
@@ -254,7 +255,7 @@ background-repeat: round;
 opacity: 1;
 visibility: visible;
 z-index: -1;
-animation: noise0 3s ease infinite;
+animation: noise0 3s ease forward;
 }
 
 @keyframes noise0 {
@@ -285,7 +286,7 @@ background-repeat: round;
 opacity: 1;
 visibility: visible;
 z-index: -1;
-animation: noise 3s ease infinite;
+animation: noise 3s ease forward;
 }
 
 @keyframes noise {
@@ -335,7 +336,7 @@ animation: noise 3s ease infinite;
   opacity: 1;
   visibility: visible;
 	z-index: -1;
-	animation: noise2 3s ease infinite;
+	animation: noise2 3s ease forward;
 }
 
 @keyframes noise2 {
@@ -365,7 +366,7 @@ animation: noise 3s ease infinite;
 	opacity: 1;
 	visibility: visible;
 	z-index: -1;
-	animation: noise3 3s ease infinite;
+	animation: noise3 3s ease forward;
 }
 
 @keyframes noise3 {
@@ -400,8 +401,132 @@ transition: .4s;
 }
 
 .sound13{
+background: #AAB5A3;
+
 
 }
+
+.sound13 .noise{
+	position: absolute;
+	top: -1%;
+	left: -2%;
+	/* right: -50%; */
+	/* bottom: -50%; */
+	width: 200%;
+	height: 200vh;
+  background: url('3-final.gif') repeat 0 0;
+  background-repeat: round;
+  /* animation: noise .2s infinite; */
+  opacity: 1;
+  visibility: visible;
+	z-index: -1;
+	animation: noise13 3s ease forward;
+}
+
+@keyframes noise13 {
+
+	0%{
+		opacity: 0;
+
+	}
+
+
+	100%{
+		opacity: 1;
+	}
+}
+
+.sound14{
+background: black !important
+animation: none;
+z-index: 0;
+}
+
+.sound14 .noise13{
+opacity: 0;
+background: none;
+}
+
+.sound15{
+	background: #252525;
+
+
+}
+
+/* .anomaly{
+	opacity: 0;
+}
+
+.anomaly .sound15{
+	position: absolute;
+	background: rgb(97,202,171);
+	background: linear-gradient(90deg, rgba(97,202,171,1) 0%, rgba(203,219,194,1) 17%, rgba(203,219,194,1) 64%, rgba(86,189,156,1) 100%);
+	height: 112px;
+	width: 236px;
+	right: 19em;
+	bottom: 36%;
+	opacity: 1;
+	margin-top: -30em;
+	z-index: 1;
+	animation: anomalybeep 2s ease;
+}
+
+@keyframes anomalybeep {
+0%{
+	transform: scale(1);
+}
+60%{
+	transform: scale(1.2);
+
+}
+80%{
+transform: scale(1);
+}
+100%{
+transform: scale(1);
+} */
+
+
+
+
+.sound17 .noise{
+	position: absolute;
+	top: -1%;
+	left: -2%;
+	/* right: -50%; */
+	/* bottom: -50%; */
+	width: 200%;
+	height: 200vh;
+	background: url('4-final.gif') repeat 0 0;
+	background-repeat: round;
+	/* animation: noise .2s infinite; */
+	opacity: 1;
+	visibility: visible;
+	z-index: -1;
+	animation: noise17 3s ease forward;
+}
+
+@keyframes noise17 {
+
+	0%{
+		opacity: 0;
+
+	}
+
+
+	100%{
+		opacity: 1;
+	}
+}
+
+.sound18{
+	background: black !important
+	animation: none;
+	opacity: 1;
+}
+
+
+
 
 
 #container{
