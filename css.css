@@ -1,10 +1,10 @@
-/* **********************************************
+/* ****************
 Basic mechanics
 Hide all paragraphs by default
 Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
-********************************************** */
+**************** */
 
 /*#closed-captions p {
 	opacity: 0;
@@ -129,7 +129,7 @@ z-index: 1;
 
 
 }
-.baseline3{
+.baseline3 {
 position: absolute;
 background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(140,190,184,0.73) 45%, rgba(140,190,184,1) 100%);
 filter: blur(2px);
@@ -141,8 +141,6 @@ transform: translateY(50%);
 opacity: 0;
 margin-top: -30em;
 z-index: 1;
-
-
 }
 
 
@@ -212,16 +210,8 @@ z-index: 1;
 
 
 .sound4 {
-background: black;
-
-
-
-
+	background: black;
 }
-.sound4 iframe{
-
-}
-
 
 
 .sound5 .baseline2 {
@@ -233,10 +223,6 @@ animation: baseline 3s ease;
 
 }
 
-.sound6{
-/* background:#A0AD98; */
-
-}
 .sound7{
 background:#A0AD98;
 }
@@ -290,16 +276,12 @@ animation: noise 3s ease forward;
 }
 
 @keyframes noise {
-
-0%{
-	opacity: 0;
-
-}
-
-
-100%{
-	opacity: 1;
-}
+	0% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 
 
@@ -320,19 +302,14 @@ animation: noise 3s ease forward;
 } */
 
 
-
-
 .sound9 .noise{
 	position: absolute;
 	top: -1%;
 	left: -2%;
-	/* right: -50%; */
-	/* bottom: -50%; */
 	width: 200%;
 	height: 200vh;
   background: url('3-final.gif') repeat 0 0;
   background-repeat: round;
-  /* animation: noise .2s infinite; */
   opacity: 1;
   visibility: visible;
 	z-index: -1;
@@ -340,13 +317,10 @@ animation: noise 3s ease forward;
 }
 
 @keyframes noise2 {
-
 	0%{
 		opacity: 0;
 
 	}
-
-
 	100%{
 		opacity: 1;
 	}
@@ -370,13 +344,10 @@ animation: noise 3s ease forward;
 }
 
 @keyframes noise3 {
-
 	0%{
 		opacity: 0;
 
 	}
-
-
 	100%{
 		opacity: 1;
 	}
@@ -384,7 +355,6 @@ animation: noise 3s ease forward;
 
 
 .sound11{
-/* background: #b9cab0; */
 background: #AAB5A3;
 animation: none;
 }
@@ -401,9 +371,7 @@ transition: .4s;
 }
 
 .sound13{
-background: #AAB5A3;
-
-
+	background: #AAB5A3;
 }
 
 .sound13 .noise{
@@ -437,20 +405,18 @@ background: #AAB5A3;
 }
 
 .sound14{
-background: black !important
-animation: none;
-z-index: 0;
+	background: black !important;
+	animation: none;
+	z-index: 0;
 }
 
-.sound14 .noise13{
+.sound14 .noise{
 opacity: 0;
-background: none;
+	background: none;
 }
 
 .sound15{
 	background: #252525;
-
-
 }
 
 /* .anomaly{
@@ -486,10 +452,15 @@ transform: scale(1);
 transform: scale(1);
 } */
 
+.sound18{
+	background: black !important;
+	animation: none;
+	z-index: 0;
+
+}
 
 
-
-.sound17 .noise{
+.sound19 .noise{
 	position: absolute;
 	top: -1%;
 	left: -2%;
@@ -503,10 +474,10 @@ transform: scale(1);
 	opacity: 1;
 	visibility: visible;
 	z-index: -1;
-	animation: noise17 3s ease forward;
+	animation: noise18 3s ease forward;
 }
 
-@keyframes noise17 {
+@keyframes noise18 {
 
 	0%{
 		opacity: 0;
@@ -519,10 +490,11 @@ transform: scale(1);
 	}
 }
 
-.sound18{
-	background: black !important
+.sound20{
+	background: black !important;
 	animation: none;
-	opacity: 1;
+	z-index: 0;
+
 }
 
 
@@ -573,14 +545,14 @@ font-weight: bold;
 
 
 
-/* **********************************************
+/* ****************
 The first paragraph, with extended timing for
 all siblings. Basically what it does is that
 it shows the text after a delay, which
 corresponds with the time that the word is
 spoken.
 You probably want to change the styling.
-********************************************** */
+**************** */
 .p0 span {
 opacity: 0;
 font-family: helvetica;
@@ -653,7 +625,7 @@ transition: 0s 3.7s;
 
 }
 .p1.on span:first-of-type{
-/*background: #2980b9;*/
+/background: #2980b9;/
 }
 .p6.on span{
 animation: fuck 2.5s ease;
