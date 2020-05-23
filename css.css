@@ -33,7 +33,7 @@ Feel free to adjust the defaults to your needs.
 	text-align: center;
 	font-size: 2.5em;
 	z-index: 2;
-	max-width: 50%;
+	max-width: 58%;
 
 
 }
@@ -539,6 +539,14 @@ font-family: helvetica;
 color: red;
 font-style: italic;
 font-weight: bold;
+
+}
+
+.soundeffect{
+	font-family: helvetica;
+	color: #A52A2A;
+	font-style: normal;
+	margin-top: 5em;
 
 }
 

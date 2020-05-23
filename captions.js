@@ -107,3 +107,13 @@ captions[76] = ['124.92','125.52'];
 captions[77] = ['125.52','127.28'];
 captions[78] = ['128.18','130.14'];
 captions[79] = ['132.58','135'];
+
+captions[80] = ['9','10']; // alarm
+captions[81] = ['12','13']; // police siren
+captions[82] = ['15','17']; // baseline 1
+captions[83] = ['25','27']; // baseline 2
+captions[84] = ['31','33']; // baseline 3
+captions[85] = ['35','75']; // rising noise
+captions[86] = ['89','100']; // rising noise s2
+captions[87] = ['103','106']; // computer beep
+captions[86] = ['110','130']; // rising noise s2
