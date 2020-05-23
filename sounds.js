@@ -6,6 +6,8 @@ sounds = [
 
 9, //sound1
 
+12, // sound2 new
+
 15, //sound2
 
 16.5, //sound3  baseline beep
