@@ -447,7 +447,7 @@ transition: .4s;
 }
 
 .sound15 .noise{
-opacity: 0;
+  opacity: 0;
 	background: none;
 }
 
@@ -518,10 +518,16 @@ transform: scale(1);
 	}
 }
 
+/* back to black */
 .sound18{
-	background: #252525; !important;
+	background: black !important;
 	animation: none;
 	z-index: 0;
+
+}
+
+.sound18 .noise{
+	opacity: 0;
 }
 
 
@@ -530,7 +536,7 @@ transform: scale(1);
 
 }
 
-
+/* back to noise */
 .sound20 .noise{
 	position: absolute;
 	top: -1%;
@@ -561,11 +567,16 @@ transform: scale(1);
 	}
 }
 
+/* back to nothing */
 .sound21{
-	background: black !important;
+	background: #AAB5A3 !important;
 	animation: none;
 	z-index: 0;
 
+}
+
+.sound21 .noise{
+	opacity: 0;
 }
 
 
