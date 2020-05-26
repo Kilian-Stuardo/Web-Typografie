@@ -26,18 +26,18 @@ Bij de eerste vragen momenten met Darice kwam naar voren dat leesbaarheid belang
 Ook kwam naar voren dat kleur voor een emotie kan zorgen en kleur gebruik voor als iemand anders spreekt, dialoog moet begrijpbaar zijn.
 
 Mijn eerste ontwerp was erg gefocused op dialoog duidelijk maken, ik had gespeeld met de kleuren en met de captions.
-[]!(Images\v1.0(cropped).png)
-[]!(Images\v1.1(cropped).png)
-[]!(Images\v1.2(cropped).png)
+![](/images/v1.0(cropped).png)
+![](/images/v1.1(cropped).png)
+![](/images/v1.2(cropped).png)
 
 Uit de feedback van Darice en Vasilis kwam naar voren dat het dialoog gedeelte duidelijk was met een andere kleur, maar nog wel wat beter kon.
 
 In de tweede versie had ik al meer met kleuren op de achtergrond gespeeld en meer de sfeer van de film naar voren gebracht
 en met de derde versie had ik al meer effecten toegevoegd zoals noise en andere geluiden vormgegeven op de achtegrond om er meer een eraving van te maken.
-[]!(Images\v3.0.png)
-[]!(Images\v3.1.png)
-[]!(Images\v3.2.png)
-[]!(Images\v3.3.png)
+![](/images/v3.0.png)
+![](/images/v3.1.png)
+![](/images/v3.2.png)
+![](/images/v3.3.png)
 
 Uit de feedback hier kwam dat Darice tags voor geluiden zelf erg fijn vind zoals bijvoorbeeld [Police siren in distence].
 Voor de rest vond ze het geluid wat vormgegeven was en de rest van de ervaring erg goed al. Vasilis vond sommige effecten nog wat te subtiel.
@@ -45,9 +45,10 @@ Voor de rest vond ze het geluid wat vormgegeven was en de rest van de ervaring e
 In de laatste versie heb ik de feedback doorgevoerd en heb ik bij geluiden een tag gezet van wat er gebeurt en ik heb alles wat meer overdreven gemaakt.
 Zo is het meer een ervaring.
 
-[]!(Images\v4.0.png)
-[]!(Images\v4.1.png)
-[]!(Images\v4.2.png)
+
+![](/images/v4.0.png)
+![](/images/v4.1.png)
+![](/images/v4.2.png)
 
 
 ## Mijn ontwerp
