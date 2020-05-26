@@ -1,10 +1,10 @@
-/* ****************
+/* ******
 Basic mechanics
 Hide all paragraphs by default
 Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
-**************** */
+****** */
 
 /*#closed-captions p {
 	opacity: 0;
@@ -57,38 +57,57 @@ position: absolute;
 }
 
 .button{
-	height: 20px;
-	width: 20px;
-	color: red;
-	display: flex;
+
 	position: fixed;
-	bottom: 52em;
-	left: 2em;
+	bottom: 82%;
+	left: 4em;
 	z-index: 99;
+}
+
+#Bgtoggle{
+	background:url(Icon-3.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:100px;
+    height:100px;
+}
+
+#Bgtoggle:active {
+	background:url(Icon-4.png) no-repeat;
+	/* background-color:red; */
 }
 
 body{
 	background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 .Bgclass{
-
-	background-image: url('Friends-appartrment.jpg');
-
+	background: url('Friends-appartrment.jpg');
 }
 
 .Bgclass #video{
-	transform: translateX(16em) translatey(0em) scale(0.13) skew(-2deg,1deg) scaley(1.3);
+	width: auto;
+	position: fixed;
+	left: 26em;
+	bottom: 28em;/* right: 0; */
+	transform: translateX(16em) translatey(3em) scale(0.13) skew(-2deg,1deg) scaley(1.3);
+}
 
-transform:
-
+@media screen and (max-width: 500px) {
+	.Bgclass #video{
+		width: auto;
+		position: fixed;
+		left: 26em;
+		bottom: 28em;
+		transform: translateX(16em) translatey(12em) scale(0.13) skew(-2deg,1deg) scaley(1.3) ;
+	}
 }
 
 .sound0 {
 background-color: black;
-background-size: 400% 400%;
+/* background-size: 400% 400%; */
 
 
 }
@@ -630,8 +649,7 @@ height: 30em;
 }
 
 #video{
-width: 100%;
-
+	width: 100%;
 }
 
 .voice1{
@@ -665,14 +683,14 @@ font-weight: bold;
 
 
 
-/* ****************
+/* ******
 The first paragraph, with extended timing for
 all siblings. Basically what it does is that
 it shows the text after a delay, which
 corresponds with the time that the word is
 spoken.
 You probably want to change the styling.
-**************** */
+****** */
 .p0 span {
 opacity: 0;
 font-family: helvetica;
