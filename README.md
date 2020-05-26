@@ -9,7 +9,7 @@ Dit project is speciaal voor Darice de Cuba gemaakt, wij kregen de opdracht om d
 Darice de Cuba is een 38 jaar oude front-end developer uit Den Haag.
 Ze is geboren in Aruba en spreekt vloeiend Nederlands, Engels, Spaans en Papiamento.
 Darice is pas laat doof geworden en kan daarom erg goed praten en ze weet daarom ook hoe sommige geluiden klinken dus haar brein vult de geluiden die ze niet hoort aan.
-daarnaast houd Darice erg van lezen en films en series kijken, koken, fotografie en nog veel meer dingen.
+Daarnaast houd Darice erg van lezen en films en series kijken, koken, fotografie en nog veel meer dingen.
 Ook is ze erg fan van Friends, ze had de serie gezien voordat ze doof werd en weet daarom ook hoe de caracters klinken.
 Darice houd erg van entertainment maar zonder geluid komt de ervaring vaak niet goed over en zo is dit project ontstaan.
 Hier een link naar haar eigen blog: https://www.darice.org/
@@ -17,7 +17,7 @@ Hier een link naar haar eigen blog: https://www.darice.org/
 ## Werkwijze
 Ik ben eerst de scene gaan bestuderen en ik ben gaan kijken naar wat de convensions nu zijn, wat is de standaard die nu gehanteerd word en hoe kan ik dit verbeteren.
 Ik heb voor mezelf wat ideeën geschetst en ben een beetje gaan brainstormen.
-Toen ben ik naar mijn oudere projecten gaan kijken en ik ben gaan kijken naar wat voor truckjes ik hier kan gebruiken, aangezien ik niet al te goed met code ben.
+Toen ben ik naar mijn oudere projecten gaan kijken en ik ben gaan kijken naar wat voor trucjes ik hier kan gebruiken, aangezien ik niet al te goed met code ben.
 
 ## Itteraties / Feedback
 Voor dit project heb ik natuurlijk meerdere versies gemaakt en daar feedback op gevraagd en naarmate aangepast.
@@ -55,6 +55,3 @@ Zo is het meer een ervaring.
 Ik heb me erg gefocused om de sfeer van de scene over te kunnen brengen en hoe ik de kijk ervaring kan verrijken.
 Ook ben ik met het systeem font gaan werken omdat ik het een fijne kijk ervaring wil maken. En ook uit de feedback van Darice kwam naar voren dat ze liever statische text heeft dan text die beweegt.
 Zelf zou ik dat ook erg vervelend vinden als je voor uren lang een film aan het kijken bent. Daarom heb ik me gefocused op de sfeer van de film vormtegeven en de kijker een ervaring te geven.
-
-
-## Bronnen
