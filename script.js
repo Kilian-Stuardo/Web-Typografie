@@ -1,5 +1,5 @@
-var Bgtoggle = document.getElementById('Bgtoggle ');
+var Bgtoggle = document.getElementById('Bgtoggle');
 
-btnBack.addEventListener('click',function() {
+Bgtoggle.addEventListener('click',function() {
     document.body.classList.toggle('Bgclass');
 });
