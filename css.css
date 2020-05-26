@@ -95,13 +95,13 @@ body{
 	transform: translateX(16em) translatey(3em) scale(0.13) skew(-2deg,1deg) scaley(1.3);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1314px) {
 	.Bgclass #video{
 		width: auto;
 		position: fixed;
 		left: 26em;
 		bottom: 28em;
-		transform: translateX(16em) translatey(12em) scale(0.13) skew(-2deg,1deg) scaley(1.3) ;
+		transform: translateX(16em) translatey(16em) scale(0.13) skew(-2deg,1deg) scaley(1.3) ;
 	}
 }
 
@@ -618,11 +618,21 @@ transform: scale(1);
 
 /* back to nothing */
 .sound21{
-	background: #AAB5A3 !important;
+	/* background: #AAB5A3 !important;  */
 	animation: none;
 	z-index: 0;
+	background: linear-gradient(0deg, rgba(143,0,32,1) 0%, rgba(82,0,18,1) 19%, rgba(48,0,11,1) 47%, rgba(0,0,0,1) 86%)!important;
+	background-size: 400% 400%!important;
+	/* animation: Detected 4s ease !important; */
+
 
 }
+
+/* @keyframes Detected {
+    0%{background-position:99% 0%}
+    50%{background-position:2% 100%}
+    100%{background-position:99% 0%}
+} */
 
 .sound21 .noise{
 	opacity: 0;
